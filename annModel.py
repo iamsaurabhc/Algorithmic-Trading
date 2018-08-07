@@ -87,3 +87,5 @@ y_pred_ = pd.DataFrame(y_pred_.round().astype(int))
 #%%
 from sklearn.metrics import accuracy_score
 print accuracy_score(y_test, y_pred_)
+
+# Got accuracy : 0.5298196948682385
